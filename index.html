@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foruki | Cloud Hosting For Everyone</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+  </head>
+  <body>
+    <!--* NAVBAR -->
+    <header class="navbar">
+      <div class="container flex">
+        <h1 class="logo">Foruki</h1>
+        <nav class="nav-links">
+          <ul class="links">
+            <li>
+              <a href="index.html" class="link">Home</a>
+            </li>
+            <li>
+              <a href="features.html" class="link">Features</a>
+            </li>
+            <li>
+              <a href="docs.html" class="link">Docs</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!--* SECTION: SHOW CASE  -->
+    <section class="showcase">
+      <div class="container grid">
+        <div class="showcase-txt">
+          <h1>Easier Deployment</h1>
+          <p>
+            Deploy web apps of all kinds, from large scale enterprise APIs to
+            static websites for individuals. Fill out the form to try a demo of
+            our platform
+          </p>
+          <a href="features.html" class="btn btn-outline">Read more</a>
+        </div>
+
+        <div class="showcase-form card">
+          <h2>Request a Demo</h2>
+          <form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+          >
+            <input type="hidden" name="form-name" value="contact" />
+            <p class="hidden">
+              <label>
+                Don’t fill this out if you’re human: <input name="bot-field" />
+              </label>
+            </p>
+            <div class="form-control">
+              <input type="text" name="name" placeholder="Name" required />
+            </div>
+            <div class="form-control">
+              <input
+                type="text"
+                name="company"
+                placeholder="Company Name"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <input type="email" name="email" placeholder="Email" required />
+            </div>
+            <input type="submit" value="Send" class="btn btn-primary" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--* SECTION STATS  -->
+    <section class="stats">
+      <div class="container">
+        <h3 class="stats-heading text-center">
+          Welcome to the best platform for building applications of all types
+          with modern architecture and scaling
+        </h3>
+        <div class="grid grid-col-3 text-center my-4">
+          <div class="stats-content">
+            <ion-icon class="stats-icon" name="server"></ion-icon>
+            <h3>10,349,405</h3>
+            <p class="text-secondary">Deployments</p>
+          </div>
+          <div class="stats-content">
+            <ion-icon class="stats-icon" name="share"></ion-icon>
+            <h3>987 TB</h3>
+            <p class="text-secondary">Published</p>
+          </div>
+          <div class="stats-content">
+            <ion-icon class="stats-icon" name="share-social"></ion-icon>
+            <h3>2,343,246</h3>
+            <p class="text-secondary">Projects</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--* SECTION: CLI  -->
+    <section class="cli py-2">
+      <div class="container grid">
+        <img src="images/cli.png" alt="" />
+        <div class="card">
+          <h3>Easy to use , cross platform CLI</h3>
+        </div>
+        <div class="card">
+          <h3>Deploy in seconds</h3>
+        </div>
+      </div>
+    </section>
+
+    <!--* SECTION: CLOUD  -->
+    <section class="cloud bg-primary py-2 my-1">
+      <div class="container grid">
+        <div class="text-center">
+          <h2 class="lg">Extreme cloud Hosting</h2>
+          <p class="lead my-1">
+            Cloud hosting like you've never seen. Fast, efficient and scalable.
+          </p>
+          <a href="features.html" class="btn btn-dark">Read more</a>
+        </div>
+        <img src="images/cloud.png" alt="" />
+      </div>
+    </section>
+
+    <!--* SECTION: LANGUAGES -->
+    <section class="languages py-3">
+      <h2 class="md text-center my-2">Supported languages</h2>
+      <div class="container flex">
+        <div class="card">
+          <h4>Node.js</h4>
+          <img src="images/logos/node.png" alt="" />
+        </div>
+        <div class="card">
+          <h4>C#</h4>
+          <img src="images/logos/csharp.png" alt="" />
+        </div>
+        <div class="card">
+          <h4>Ruby</h4>
+          <img src="images/logos/ruby.png" alt="" />
+        </div>
+        <div class="card">
+          <h4>PHP</h4>
+          <img src="images/logos/php.png" alt="" />
+        </div>
+        <div class="card">
+          <h4>Phython</h4>
+          <img src="images/logos/python.png" alt="" />
+        </div>
+        <div class="card">
+          <h4>Scala</h4>
+          <img src="images/logos/scala.png" alt="" />
+        </div>
+        <div class="card">
+          <h4>Clojure</h4>
+          <img src="images/logos/clojure.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!--* SECTION: FOOTER  -->
+    <footer class="footer bg-dark py-5">
+      <div class="container grid grid-col-3">
+        <div>
+          <h1>Foruki</h1>
+          <p>Copyright &copy; 2020 All Right Reserve</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="docs.html">Doc</a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <a href="#"
+            ><ion-icon class="social-icons" name="logo-twitter"></ion-icon
+          ></a>
+          <a href="#"
+            ><ion-icon class="social-icons" name="logo-facebook"></ion-icon
+          ></a>
+          <a href="#"
+            ><ion-icon class="social-icons" name="logo-instagram"></ion-icon
+          ></a>
+          <a href="#"
+            ><ion-icon class="social-icons" name="logo-github"></ion-icon
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
